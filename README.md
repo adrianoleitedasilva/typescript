@@ -29,3 +29,17 @@ O TypeScript também é amplamente utilizado em projetos JavaScript de grande es
 Em resumo, o TypeScript é uma linguagem de programação que estende o JavaScript adicionando recursos de tipagem estática, permitindo aos desenvolvedores escreverem código mais seguro, escalável e com menos erros, além de ser compatível com a maioria das bibliotecas e frameworks JavaScript existentes.
 
 # Instalação
+
+Para instalar o Typescript vamos precisar do NodeJS, instalado. Caso ele já esteja instalado em sua máquina, abra um terminal(prompt de comando) e use o comando:
+
+```terminal
+  npm install -g typescript
+```
+
+O NodeJS vai se encarregar de baixar e instalar a versão mais recente do Typescript.
+
+Para ver a versão que foi instalada, use o comando:
+
+```terminal
+  tsc -v
+```
