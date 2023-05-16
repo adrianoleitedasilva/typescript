@@ -12,7 +12,7 @@
 
 // Agora definindo o tipo como número
 // 
-function soma(num1: number, num2: number) {
+function soma(num1, num2) {
     return num1 + num2
 }
 
