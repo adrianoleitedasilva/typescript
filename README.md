@@ -11,10 +11,11 @@
 ![ShielddoProjeto](https://img.shields.io/github/last-commit/adrianoleitedasilva/typescript?style=for-the-badge)
 
 <!-- Envie a imagem por meio de uma ISSUE e cole o link aqui nessa linha abaixo -->
-![banner](https://user-images.githubusercontent.com/6373438/200974459-c1325f0f-5b63-4796-913e-778136518b84.jpg)
+![banner](https://github.com/adrianoleitedasilva/typescript/assets/6373438/a364c3ca-6a1b-4e7e-86d2-bacacb801f4a)
 
 - [Typescript](#typescript)
 - [Instalação](#instalação)
+    - [Configurando o compilador do Typescript](#configurando-o-compilador-do-typescript)
   
 # Typescript
 
@@ -42,4 +43,12 @@ Para ver a versão que foi instalada, use o comando:
 
 ```terminal
   tsc -v
+```
+
+### Configurando o compilador do Typescript
+
+Inicialmente o arquivo de configuração não vem no projeto, precisamos "inicia-lo". Com o terminal aberto, vamos rodar o comando:
+
+```terminal
+tsc --init
 ```
