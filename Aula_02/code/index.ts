@@ -42,3 +42,38 @@ console.log(user)
 function somarDois(numero1: number, numero2: number) {
     return numero1 + numero2
 }
+
+// Function void
+// Quando não precisamos retornar nada, ou seja, void.
+// Armazenamos algo, fazemos algo, mas não necessáriamente devemos ter um método de return como acima
+function result(price: number) {
+    console.log("O valor é " + price)
+}
+
+result(somarDois(5, 6))
+
+// Objetos
+
+const userNovo = {
+    nome: 'Adriano',
+    idade: 34
+}
+
+// Tipo Unknowm
+let inputItem: unknown
+let itemName: string
+
+inputItem = 10
+itemName = 'Apple'
+
+if(inputItem === 'string') {
+    itemName = inputItem
+}
+
+// Tipo NEVER
+// Nunca retorna uma informação para a console
+function generateError(message: string, code: number): never{
+    throw {message: message, errorCode: code}
+}
+
+generateError("A aplicação explodiu!", 467)
